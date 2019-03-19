@@ -5,12 +5,12 @@ Polls SemaConnect for open spaces, using Selenium.
 
 Add the following to `~/.bash_profile` to allow you to execute this script with `evcheck`.
 
-### Variables
-
+```bash
+# Variables
 export SEMAUSER='<EMAIL>'
 export SEMAPASS='<PASS>'
 export SEMASEARCH='"<ADDRESS>"'
 
-### Aliases
-
+# Aliases
 alias evcheck="/Path/To/semacheck.py --username $SEMAUSER --password $SEMAPASS --search $SEMASEARCH"
+```
